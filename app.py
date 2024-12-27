@@ -36,6 +36,11 @@ def category():
     # Link to the category page.  Pass the selectedCategory, categories and books as parameters
     return render_template()
 
+@app.route('/search')
+def search():
+    #Link to the search results page.
+    return render_template()
+
 @app.errorhandler(Exception)
 def handle_error(e):
     """
